@@ -10,17 +10,16 @@ function App() {
     <div>
       <BrowserRouter>
         <header>
-          <h1>My Online Shop</h1>
-          <Link to="/">Home</Link>-
-          <Link to="/cart">Cart</Link>
+          <h1>My Online Shop..</h1>
+          <Link to="/">Home</Link>-<Link to="/cart">Cart</Link>
           <hr />
         </header>
 
         <main>
           <Routes>
             <Route index element={<Product />} />
-            <Route path="/" element={<Product/>}></Route>
-            <Route path="/cart" element={<Cart/>}></Route>
+            <Route path="/" element={<Product />}></Route>
+            <Route path="/cart" element={<Cart />}></Route>
           </Routes>
         </main>
 
